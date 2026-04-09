@@ -2,6 +2,8 @@
 
 A multi-step pet grooming appointment booking app with service selection, calendar scheduling, and payment options. Warm, friendly design with bubble accents and a guided wizard flow.
 
+![Paws & Bubbles](pawsbubbles_screenshot.png)
+
 **Live demo:** https://psandis.github.io/booking-bubbles/
 
 ## Features
