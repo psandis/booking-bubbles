@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: '/booking-bubbles',
+  basePath: process.env.NODE_ENV === 'production' ? '/booking-bubbles' : '',
   images: {
     unoptimized: true,
   },
