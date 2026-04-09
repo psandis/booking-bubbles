@@ -15,7 +15,7 @@ const Landing: React.FC<LandingProps> = ({ onBookNow, setLanguage, language, t }
   return (
     <div
       className="relative w-full max-w-md mx-auto h-[80vh] min-h-[500px] max-h-[700px] rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between p-8 text-white bg-cover bg-center"
-      style={{ backgroundImage: 'url(/assets/landing-hero.jpg)' }}
+      style={{ backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ''}/assets/landing-hero.jpg)` }}
     >
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black/80 via-black/40 to-transparent -z-10"></div>
       
