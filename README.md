@@ -1,6 +1,8 @@
-# Paws & Bubbles  - Pet Grooming Booking
+# Paws & Bubbles - Pet Grooming Booking
 
 A multi-step pet grooming appointment booking app with service selection, calendar scheduling, and payment options. Warm, friendly design with bubble accents and a guided wizard flow.
+
+**Live demo:** https://psandis.github.io/booking-bubbles/
 
 ## Features
 
